@@ -173,17 +173,19 @@ int main(void)
 	LCD_INIT();
 	LCD_STRING("Welcome to AI&ML");
 	LCD_CMD(0XC0);
-	LCD_STRING("212221240057");
+	LCD_STRING("212221240043");
 	
 	return 0;
 }
 ~~~
 ## Proteus simulation: 
 ### LCD OFF!:
-[1](https://user-images.githubusercontent.com/94165252/196727576-30a671c5-eeab-409b-a35b-77e640103547.jpeg)
+
+![1](https://user-images.githubusercontent.com/94165252/196728628-5b099cf2-b5d8-4c1e-b616-20bdcf5be851.jpeg)
 
 ### LCD ON!:
-[2](https://user-images.githubusercontent.com/94165252/196727618-307b1f78-0c49-4768-a38f-822c7c40dbaf.jpeg)
+![2](https://user-images.githubusercontent.com/94165252/196728850-2fac4673-cc6a-4907-beb2-a3312a059116.jpeg)
+
 
 ##  Layout Diagram: 
 ![3](https://user-images.githubusercontent.com/94165252/196727887-cc3f8dcc-8139-4f67-a45a-f98058632514.jpeg)
